@@ -37,7 +37,7 @@ test.before(async () => {
 test.after(async () => {
   await app.stop();
 });
-
+BUG BUG
 test('see if dev tools are open', async t => {
   await app.client.waitUntilWindowLoaded();
   t.false(await app.browserWindow.isDevToolsOpened());
